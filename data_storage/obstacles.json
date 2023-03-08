@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Obstacle #1",
+        "coordinate_x": 252,
+        "coordinate_y": 461
+    },
+    {
+        "name": "Obstacle #4",
+        "coordinate_x": 552,
+        "coordinate_y": 461
+    },
+    {
+        "name": "Obstacle #5",
+        "coordinate_x": 551,
+        "coordinate_y": 361
+    },
+    {
+        "name": "Obstacle #7",
+        "coordinate_x": 400,
+        "coordinate_y": 361
+    },
+    {
+        "name": "Obstacle #2",
+        "coordinate_x": 250,
+        "coordinate_y": 361
+    },
+    {
+        "name": "Obstacle #3",
+        "coordinate_x": 252,
+        "coordinate_y": 262
+    },
+    {
+        "name": "Obstacle #8",
+        "coordinate_x": 400,
+        "coordinate_y": 260
+    },
+    {
+        "name": "Obstacle #6",
+        "coordinate_x": 551,
+        "coordinate_y": 262
+    }
+]

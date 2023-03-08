@@ -1,0 +1,266 @@
+[
+    {
+        "task": "POSITIONING",
+        "agent": [
+            {
+                "name": "r1",
+                "task": "POSITIONING",
+                "data": {
+                    "object": "bs",
+                    "variable": "r1_positioning_1"
+                }
+            },
+            {
+                "name": "r2",
+                "task": "POSITIONING",
+                "data": {
+                    "object": "bs",
+                    "variable": "r2_positioning_1"
+                }
+            }
+        ],
+        "goal": {
+            "object": "r1",
+            "variable": "position",
+            "object_val": "bs",
+            "variable_val": "r1_positioning_1"
+        },
+        "status": "done"
+    },
+    {
+        "task": "AMBIL_BOLA",
+        "agent": [
+            {
+                "name": "r1",
+                "task": "AMBIL_BOLA",
+                "data": {
+                    "object": "",
+                    "variable": ""
+                }
+            }
+        ],
+        "goal": {
+            "object": "r1",
+            "variable": "ball_status",
+            "object_val": "bs",
+            "variable_val": "status_bola_tangkap"
+        },
+        "status": "done"
+    },
+    {
+        "task": "HADAP_ARAH",
+        "agent": [
+            {
+                "name": "r1",
+                "task": "HADAP_ARAH",
+                "data": {
+                    "object": "r2",
+                    "variable": "position"
+                }
+            }
+        ],
+        "goal": {
+            "object": "r1",
+            "variable": "position",
+            "object_val": "r2",
+            "variable_val": "position"
+        },
+        "status": "done"
+    },
+    {
+        "task": "HADAP_ARAH",
+        "agent": [
+            {
+                "name": "r2",
+                "task": "HADAP_ARAH",
+                "data": {
+                    "object": "r1",
+                    "variable": "position"
+                }
+            }
+        ],
+        "goal": {
+            "object": "r2",
+            "variable": "position",
+            "object_val": "r1",
+            "variable_val": "position"
+        },
+        "status": "done"
+    },
+    {
+        "task": "OPERAN",
+        "agent": [
+            {
+                "name": "r1",
+                "task": "KIRIM_BOLA",
+                "data": {
+                    "object": "r2",
+                    "variable": "position"
+                }
+            },
+            {
+                "name": "r2",
+                "task": "TERIMA_BOLA",
+                "data": {
+                    "object": "r1",
+                    "variable": "position"
+                }
+            }
+        ],
+        "goal": {
+            "object": "r1",
+            "variable": "ball_status",
+            "object_val": "bs",
+            "variable_val": "status_bola_lepas"
+        },
+        "status": "done"
+    },
+    {
+        "task": "POSITIONING",
+        "agent": [
+            {
+                "name": "r1",
+                "task": "POSITIONING",
+                "data": {
+                    "object": "bs",
+                    "variable": "r1_positioning_2"
+                }
+            }
+        ],
+        "goal": {
+            "object": "r1",
+            "variable": "position",
+            "object_val": "bs",
+            "variable_val": "r1_positioning_2"
+        },
+        "status": "done"
+    },
+    {
+        "task": "HADAP_ARAH",
+        "agent": [
+            {
+                "name": "r1",
+                "task": "HADAP_ARAH",
+                "data": {
+                    "object": "r2",
+                    "variable": "position"
+                }
+            }
+        ],
+        "goal": {
+            "object": "r1",
+            "variable": "position",
+            "object_val": "r2",
+            "variable_val": "position"
+        },
+        "status": "done"
+    },
+    {
+        "task": "HADAP_ARAH",
+        "agent": [
+            {
+                "name": "r2",
+                "task": "HADAP_ARAH",
+                "data": {
+                    "object": "r1",
+                    "variable": "position"
+                }
+            }
+        ],
+        "goal": {
+            "object": "r2",
+            "variable": "position",
+            "object_val": "r1",
+            "variable_val": "position"
+        },
+        "status": "waiting"
+    },
+    {
+        "task": "OPERAN",
+        "agent": [
+            {
+                "name": "r1",
+                "task": "TERIMA_BOLA",
+                "data": {
+                    "object": "r2",
+                    "variable": "position"
+                }
+            },
+            {
+                "name": "r2",
+                "task": "KIRIM_BOLA",
+                "data": {
+                    "object": "r1",
+                    "variable": "position"
+                }
+            }
+        ],
+        "goal": {
+            "object": "r2",
+            "variable": "ball_status",
+            "object_val": "bs",
+            "variable_val": "status_bola_lepas"
+        },
+        "status": "done"
+    },
+    {
+        "task": "AMBIL_BOLA",
+        "agent": [
+            {
+                "name": "r1",
+                "task": "AMBIL_BOLA",
+                "data": {
+                    "object": "",
+                    "variable": ""
+                }
+            }
+        ],
+        "goal": {
+            "object": "r1",
+            "variable": "ball_status",
+            "object_val": "bs",
+            "variable_val": "status_bola_tangkap"
+        },
+        "status": "done"
+    },
+    {
+        "task": "HADAP_ARAH",
+        "agent": [
+            {
+                "name": "r1",
+                "task": "HADAP_ARAH",
+                "data": {
+                    "object": "bs",
+                    "variable": "goal_target_kiri"
+                }
+            }
+        ],
+        "goal": {
+            "object": "r1",
+            "variable": "position",
+            "object_val": "bs",
+            "variable_val": "goal_target_kiri"
+        },
+        "status": "done"
+    },
+    {
+        "task": "CETAK_GOAL",
+        "agent": [
+            {
+                "name": "r1",
+                "task": "CETAK_GOAL",
+                "data": {
+                    "object": "bs",
+                    "variable": "goal_target_kiri"
+                }
+            }
+        ],
+        "goal": {
+            "object": "r1",
+            "variable": "ball_status",
+            "object_val": "bs",
+            "variable_val": "status_bola_lepas"
+        },
+        "status": "done"
+    }
+]
